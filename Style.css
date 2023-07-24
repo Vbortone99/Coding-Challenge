@@ -1,0 +1,79 @@
+/* FORMATTAZIONE BASE */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 800px;
+    height: 570px;
+    margin: auto;
+    border-radius: 14px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 60px 40px;
+}
+/* HEADER */
+header{
+    text-align: center;
+}
+img{
+    width: 160px;
+}
+h2{
+    color: lime;
+}
+/* NAVIGAZIONE */
+nav{
+    background-color: lime;
+    text-align: center;
+    height: 32px;
+    width: 90%;
+    margin: auto;
+    padding: 6px;
+}
+.tasti-nav{
+    font-size: 8px;
+}
+/* SEZIONE UTENTI */
+section{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.Details{
+    display: block;
+}
+.monopattino{
+    margin-left: 5px;
+    width: 10px;
+}
+/* STATO BATTERIE */
+.carica-intermedia{
+    background: rgb(240, 180, 70);
+    height: 21px;
+    width: 35%;
+    border-radius: 4px;
+}
+.carica-completa{
+    background: lime;
+    height: 23px;
+    width: 60%;
+    border-radius: 4px;
+}
+.carica-bassa{
+    background: brown;
+    height: 23px;
+    width: 15%;
+    border-radius: 4px;
+}
